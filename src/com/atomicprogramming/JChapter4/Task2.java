@@ -2,9 +2,9 @@ package com.atomicprogramming.JChapter4;
 
 import java.util.Scanner;
 
-public class task2 {
+public class Task2 {
 
-    public static float PerimeterOfRectangle(float length, float width) {
+    public static float perimeterOfRectangle(float length, float width) {
         return (length * 2) + (width * 2);
     }
 
@@ -14,7 +14,7 @@ public class task2 {
         float length = scanner.nextFloat();
         System.out.println("Please enter the width of the rectangle:");
         float width = scanner.nextFloat();
-        float perimeter = PerimeterOfRectangle(length, width);
+        float perimeter = perimeterOfRectangle(length, width);
         System.out.println("The perimeter of the rectangle is: " + perimeter);
     }
 }

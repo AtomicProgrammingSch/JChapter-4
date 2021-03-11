@@ -1,6 +1,6 @@
 package com.atomicprogramming.JChapter4;
 
-public class task1 {
+public class Task1 {
 
     public static int doubleFunction(int a) {
         return a * 2;
